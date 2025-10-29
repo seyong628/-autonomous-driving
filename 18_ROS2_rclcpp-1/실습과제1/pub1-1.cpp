@@ -19,6 +19,6 @@ int main(int argc, char * argv[])   //main함수
         loop_rate.sleep(); //반복주파수에서 남은 시간 만큼 sleep
         message.data++; //message.data증가
     }
-    rclcpp::shutdown();//시스템 출력
+    rclcpp::shutdown();//시스템 종료
     return 0;   //0을 반환하고 함수 종료
 }   //함수끝
