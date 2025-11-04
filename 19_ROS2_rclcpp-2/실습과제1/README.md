@@ -7,4 +7,5 @@
 
 #### hz 표시
 수신 주기는 0.098s이고, 주파수는 9.982hz이다.
+
 <img width="635" height="203" alt="image" src="https://github.com/user-attachments/assets/7f470e62-eb75-4509-97e7-a5d20ebe8682" />
