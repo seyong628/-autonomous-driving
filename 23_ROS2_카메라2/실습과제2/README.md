@@ -1,1 +1,1 @@
-#### 예제 1번의 섭스크라이버노드를 수정하여 구독한 영상을 화면에 출력하고 동시에 동영상 파일(mp4)로 저장하는 패키지 camera2-2를 작성하라. 실행시 저장을 시작하고 ctrl+c를 누르면 저장을 종료하도록 하라.
+<img width="950" height="525" alt="image" src="https://github.com/user-attachments/assets/510cb4d2-98b1-4e44-b1ce-caf7d4bcd5e0" />
