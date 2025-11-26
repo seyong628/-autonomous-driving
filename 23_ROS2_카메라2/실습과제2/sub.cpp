@@ -18,7 +18,7 @@ void mysub_callback(rclcpp::Node::SharedPtr node, const sensor_msgs::msg::Compre
 int main(int argc, char* argv[])
 {
     rclcpp::init(argc, argv);
-    auto node = std::make_shared<rclcpp::Node>("camsub_wsl_7");
+    auto node = std::make_shared<rclcpp::Node>("camsub_wsl_5");
     auto qos_profile = rclcpp::QoS(rclcpp::KeepLast(10)); //TCP
     //auto qos_profile = rclcpp::QoS(rclcpp::KeepLast(10)).best_effort(); //UDP
     std::function<void(const sensor_msgs::msg::CompressedImage::SharedPtr msg)> fn;
