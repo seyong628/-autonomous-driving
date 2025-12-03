@@ -6,7 +6,7 @@
 #include <chrono>
 #include <iostream>
 
-std::string src = "ros2_ws/simulation/5_it_cw_100rpm_out.mp4";
+std::string src = "/home/jetson/ros2_ws/simulation/5_lt_cw_100rpm_out.mp4";
 
 int main(int argc, char * argv[])
 {
@@ -20,7 +20,7 @@ int main(int argc, char * argv[])
     sensor_msgs::msg::CompressedImage::SharedPtr msg;
     rclcpp::WallRate loop_rate(10.0);
 
-    cv::VideoCapture cap(src, cv::CAP_GSTREAMER);
+    cv::VideoCapture cap(src);
     if (!cap.isOpened()) {
         RCLCPP_ERROR(node->get_logger(), "Could not open video!");
         rclcpp::shutdown();
