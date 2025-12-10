@@ -36,7 +36,6 @@ public:
             RCLCPP_WARN(this->get_logger(), "Empty frame");
             return;
         }
-        recorder_.write(frame);
         
         // 전처리
         Mat thresh = detector_.preprocess(frame);
