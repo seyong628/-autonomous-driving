@@ -17,6 +17,7 @@ find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
 
+include_directories(include/linedetect_wsl)
 # build
 add_executable(linedetect_wsl src/sub.cpp src/class.cpp)
 ament_target_dependencies(linedetect_wsl rclcpp sensor_msgs cv_bridge OpenCV)
