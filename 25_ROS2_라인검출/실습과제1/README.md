@@ -7,7 +7,7 @@
 
   https://www.youtube.com/watch?v=UJcVf9efM58
 
-# <class.cpp>
+# <linedetect_wsl/src/class.cpp>
 ## 설명
 https://github.com/seyong628/-autonomous-driving/blob/0e4a2e6c0ee129dc3b2e4f16eaba3749b5b19922/25_ROS2_%EB%9D%BC%EC%9D%B8%EA%B2%80%EC%B6%9C/%EC%8B%A4%EC%8A%B5%EA%B3%BC%EC%A0%9C1/linedetect_wsl/src/class.cpp#L10-L35
 
@@ -43,7 +43,7 @@ https://github.com/seyong628/-autonomous-driving/blob/0e4a2e6c0ee129dc3b2e4f16ea
 
     로봇의 중심 x좌표 - 라인의 중심 x좌표
 
-# <sub.cpp>
+# <linedetect_wsl/src/sub.cpp>
 ## 설명
 https://github.com/seyong628/-autonomous-driving/blob/1b730f300826efda1b93517b1e1fee8bfc96b5f0/25_ROS2_%EB%9D%BC%EC%9D%B8%EA%B2%80%EC%B6%9C/%EC%8B%A4%EC%8A%B5%EA%B3%BC%EC%A0%9C1/linedetect_wsl/src/sub.cpp#L14-L64
 
@@ -56,3 +56,6 @@ https://github.com/seyong628/-autonomous-driving/blob/1b730f300826efda1b93517b1e
   mysub_callback(const sensor_msgs::msg::CompressedImage::SharedPtr msg): 콜백 함수
 
   성능 측정을 위해 시간 기록을 시작하고 ROS 메시지를 OpenCV 이미지로 변환한다. LineDetector클래스의 멤버함수인 preprocess를 이용해 전처리하고 findObjects와 drawObjects를 이용해 객체를 감지하고 바운딩 박스를 그린다. 그 후 결과 출력하고 시간 측정 및 로그, 에러를 출력한다.
+
+# <linedetect_nano/src/pub.cpp>
+## 설명
